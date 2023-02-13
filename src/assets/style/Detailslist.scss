@@ -1,0 +1,232 @@
+.details-lists-main {
+margin-top: 170px;
+  .bdr-btm {
+    border-bottom: 1px solid #EEEEEE;
+
+    .over-text {
+      padding: 20px !important;
+    }
+
+  }
+
+  .details-bg {
+    background-color: #F7F7F7;
+    padding: 30px 110px;
+
+    .inner-section-cart {
+      padding: 50px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 4px 16px #00000008;
+    }
+
+    .heart-divide {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .top-heading-heart {
+
+
+      .over-text {
+        padding: 5px 10px;
+      }
+
+      .padding-box {
+
+        .detail-para {
+          letter-spacing: 0.16px;
+          color: #777777;
+          font-size: 16px;
+        }
+
+        padding: 20px;
+
+        .item-section {
+          margin-top: 15px;
+        }
+
+        .heading-p-i {
+          letter-spacing: 0.84px;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .input-details {
+      margin-bottom: 10px;
+      border: 1px solid #E7E7E7;
+      height: 38px;
+      color: #212529
+    }
+
+    .right-form {
+      label {
+        letter-spacing: 0.38px;
+        color: #222222;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      label:hover{
+        transition: all 0.3s;
+        box-shadow: #fe0843 0px 0px 15px;
+      }
+    }
+
+    textarea {
+      resize: none;
+      height: 72px !important;
+    }
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    display: none;
+    line-height: 1;
+
+    color: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .custom-dots {
+    bottom: -100px;
+  }
+
+  .custom-dots li {
+    width: 64px;
+    height: 64px;
+  }
+
+  .slick-dots li.slick-active {
+    border: 2px solid #FE0843;
+  }
+
+  .slick-dots {
+    position: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .detail-card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #00000008;
+  }
+
+  .detail-input {
+    width: 100%;
+  }
+
+  .other-input {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #E7E7E7;
+
+  }
+
+  .addcart-btn {
+    border: none;
+    color: black;
+    width: 160px;
+    height: 42px;
+    border: 1px solid var(--unnamed-color-818181);
+    border: 1px solid #818181;
+    font-size: 16px;
+    background-color: white;
+    margin-right: 35px;
+  }
+
+  .getquote-btn1 {
+    width: 160px;
+    height: 42px;
+    background: var(--unnamed-color-818181) 0% 0% no-repeat padding-box;
+    background: #818181 0% 0% no-repeat padding-box;
+    color: white;
+    border: none;
+
+  }
+
+  .form-select {
+    border: 1px solid #E7E7E7;
+    border-radius: 1px !important;
+
+  }
+
+  .btn-detalil-products {
+    position: absolute;
+    bottom: -37px;
+    right: 20px;
+    
+  }
+
+  .right-col{
+    position: relative;
+  }
+
+  .hot-text {
+    // margin-bottom: 20px;
+
+    p {
+      font-size: 24px;
+      letter-spacing: 0.58px;
+      color: #222222;
+      font-weight: bold;
+      padding: 0 15px;
+      background-color:#ff3e6c;
+      color: #f8f9fa;
+    }
+
+  }
+
+  .steel-text {
+    color: #222222 !important;
+    font-size: 14px !important;
+  }
+
+  .thick-label {
+    font-size: 16px;
+    color: #222222;
+  }
+
+  .thick-span {
+    color: #AAAAAA;
+    font-size: 16px;
+  }
+
+  .extra-border {
+    border-bottom: 1px solid #00000008;
+  }
+
+  .over-text {
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    color: #222222;
+  }
+
+  .inform-color {
+    color: #FE0843;
+    font-size: 14px;
+  }
+
+  .brand-text {
+    font-size: 16px;
+
+    letter-spacing: 0.16px;
+    color: #AAAAAA;
+  }
+
+  .brand-name {
+    letter-spacing: 0.16px;
+    color: #222222;
+    font-size: 16px;
+  }
+
+  .product {
+    font-size: 14px;
+  }
+
+
+}

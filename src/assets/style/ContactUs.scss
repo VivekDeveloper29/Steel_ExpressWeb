@@ -1,0 +1,170 @@
+.main-contact-us {
+    margin-top: 170px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    padding: 30px 110px;
+
+    display: flex;
+    justify-content: center;
+
+    .main-contact-card {
+        display: flex;
+        align-items: center;
+
+        .left-contact {
+            height: 434px;
+            width: 502px;
+            padding: 30px 60px 30px 30px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 16px #00000008;
+
+            .contact-heading {
+                letter-spacing: 0.24px;
+                text-transform: capitalize;
+                font-size: 24px;
+                font-weight: bold;
+
+                .black {
+                    color: #222222;
+                }
+
+                .red {
+                    color: #FE0843;
+                }
+            }
+
+            .form-contact {
+                label {
+                    letter-spacing: 0.34px;
+                    color: #777777;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                button {
+                    border: none;
+                    background: #818181 0% 0% no-repeat padding-box;
+                    width: 100%;
+                    letter-spacing: 0.16px;
+                    color: #FFFFFF;
+                    font-weight: 600;
+                    font-size: 16px;
+                    height: 38px;
+
+                    &:hover {
+                        box-shadow: #f9cbd5 0px 0px 15px;
+                        transition: all 0.3s;
+                    }
+                }
+
+                .input-contact {
+                    width: 100%;
+                    border: 1px solid #E7E7E7;
+                    height: 38px;
+                    margin-bottom: 20px;
+                }
+
+                .message {
+                    height: 72px !important;
+                    resize: none;
+                }
+            }
+        }
+
+        .right-contact {
+            position: relative;
+            display: flex;
+            align-items: center;
+            background: #FF3E6C 0% 0% no-repeat padding-box;
+            width: 236px;
+            height: 368px;
+            padding: 20px;
+
+            .heading {
+                letter-spacing: 0.24px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 24px;
+                position: absolute;
+                top: 20px;
+            }
+
+            .call,
+            .mail {
+                margin-bottom: 30px;
+            }
+
+            .call,
+            .mail,
+            .whatsapp {
+                display: flex;
+                align-items: center;
+                margin-left: -38px;
+
+
+                span {
+                    display: inline-block;
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 4px 16px #00000029;
+                    height: 36px;
+                    width: 36px;
+                    border-radius: 50%;
+                    position: absolute;
+                    margin-right: 10px;
+                }
+
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                label {
+                    letter-spacing: 0.16px;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    font-weight: bold;
+                    padding-left: 45px;
+                }
+
+            }
+        }
+    }
+}
+
+.main-about {
+    background-color: #F7F7F7;
+    padding: 30px 110px;
+
+    .inner {
+        h3 {
+            letter-spacing: 0.24px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #222222;
+
+            span {
+                color: #FE0843;
+            }
+        }
+
+        .img {
+            text-align: center;
+
+            img {
+                width: auto;
+            }
+
+            margin-bottom: 15px;
+        }
+
+        .para-about {
+            p {
+                letter-spacing: 0.48px;
+                color: #222222;
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+    }
+}

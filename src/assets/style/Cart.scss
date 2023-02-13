@@ -1,0 +1,186 @@
+.cart-bg-main {
+    margin-top: 170px;
+    background-color: #F7F7F7;
+    padding: 30px 110px;
+
+    .cart-main-wrapper {
+        max-height: 60vh;
+        min-height: 40vh;
+        overflow-y: auto;
+   
+        .outer-heading {
+
+            .out-heading {
+                letter-spacing: 0.16px;
+                color: #777777;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+
+
+
+            .left {
+                flex-basis: 60%;
+                display: flex;
+                justify-content: space-between;
+
+                .qty {
+                    margin: 0 12px;
+                }
+            }
+        }
+
+        .cart-box {
+            width: 100%;
+            margin-bottom: 20px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 16px #00000008;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .prdct-qty {
+            flex-basis: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left-content {
+                display: flex;
+                align-items: center;
+                flex-basis: 58%;
+
+                .image {
+                    margin-right: 15px;
+
+                    img {
+                        height: 120px;
+                        width: 120px;
+                    }
+                }
+
+                .content {
+                    .top-par {
+                        letter-spacing: 0.38px;
+                        color: #222222;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+
+                    .number {
+                        letter-spacing: 0.24px;
+                        color: #AAAAAA;
+                        font-size: 10px;
+                        font-weight: bold;
+                    }
+
+                    .key-name {
+                        letter-spacing: 0.34px;
+                        color: #AAAAAA;
+                        font-size: 14px;
+                        margin-right: 10px;
+                        font-weight: bold;
+                    }
+
+                    .key-value {
+                        letter-spacing: 0.34px;
+                        color: #01141E;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .card-add-btn-main {
+            display: flex;
+
+            .minus-btn,
+            .plus-btn {
+                border: none;
+                background-color: transparent;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .qty-input {
+                font-size: 16px;
+                font-weight: 600;
+                color: #222222;
+                margin: 0 6px;
+                text-align: center;
+                border: 1px solid #D4D4D4;
+                height: 38px;
+                width: 38px;
+            }
+
+            .plus-btn {}
+        }
+
+        .delete-btn-main {
+            margin-right: 25px;
+
+            button {
+                border: none;
+                background-color: transparent;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    &:hover {
+                        box-shadow: #f9cbd5 0px 0px 15px;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .count-cart-bottom-main {
+        padding: 20px;
+        background: #FDE7EC 0% 0% no-repeat padding-box;
+
+        .inner {
+            display: flex;
+            justify-content: space-between;
+
+            .left {
+                label {
+                    letter-spacing: 0.34px;
+                    color: #222222;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+
+            .right {
+                a {
+                    border: 1px solid #FF3E6C;
+                    letter-spacing: 0.43px;
+                    color: #FF3E6C;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 10px 30px;
+                    margin-right: 10px;
+
+                    &:hover {
+                        transition: all 0.3s;
+                        color: #ffffff;
+                        background-color: #FF3E6C;
+                    }
+                }
+            }
+        }
+    }
+
+}

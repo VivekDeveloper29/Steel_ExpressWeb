@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5486" data-name="Rectangle 5486" width="24" height="24" transform="translate(228 1463.17)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ic_youtube" transform="translate(-228 -1463.17)" clip-path="url(#clip-path)">
+    <g id="Page-1" transform="translate(230.496 1468.438)">
+      <g id="Social-Icons---Isolated">
+        <path id="Youtube" d="M89.542,264.215v-5.379l5.136,2.7Zm11.277-6.311a4.16,4.16,0,0,0-.756-1.9,2.706,2.706,0,0,0-1.9-.811C95.5,255,91.508,255,91.508,255H91.5s-3.99,0-6.65.194a2.706,2.706,0,0,0-1.9.811,4.158,4.158,0,0,0-.755,1.9A29.168,29.168,0,0,0,82,261v1.453a29.146,29.146,0,0,0,.19,3.1,4.158,4.158,0,0,0,.755,1.9,3.209,3.209,0,0,0,2.1.819c1.521.147,6.463.192,6.463.192s3.994-.006,6.654-.2a2.709,2.709,0,0,0,1.9-.811,4.16,4.16,0,0,0,.756-1.9,29.146,29.146,0,0,0,.19-3.1V261a29.168,29.168,0,0,0-.19-3.1Z" transform="translate(-82 -255)" fill="#ff0002" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

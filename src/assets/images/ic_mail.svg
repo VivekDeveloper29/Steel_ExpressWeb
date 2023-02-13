@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3674" data-name="Rectangle 3674" width="14" height="14" transform="translate(843 41)" fill="#fe0843" stroke="#fe0843" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ic_mail" transform="translate(-843 -41)" clip-path="url(#clip-path)">
+    <g id="_19654447781571183076" data-name="19654447781571183076" transform="translate(843.538 43.154)">
+      <rect id="Rectangle_3675" data-name="Rectangle 3675" width="12.923" height="9.692" transform="translate(0 0)" fill="none" stroke="#fe0843" stroke-linejoin="round" stroke-width="1.385"/>
+      <path id="Path_33013" data-name="Path 33013" d="M5.538,7.615l4.308,3.769,4.308-3.769" transform="translate(-3.385 -5.462)" fill="none" stroke="#fe0843" stroke-linejoin="round" stroke-width="1.385"/>
+      <line id="Line_4" data-name="Line 4" x1="3.069" y2="2.692" transform="translate(2.154 4.846)" fill="none" stroke="#fe0843" stroke-linejoin="round" stroke-width="1.385"/>
+      <line id="Line_5" data-name="Line 5" x1="3.069" y1="2.692" transform="translate(7.7 4.846)" fill="none" stroke="#fe0843" stroke-linejoin="round" stroke-width="1.385"/>
+    </g>
+  </g>
+</svg>

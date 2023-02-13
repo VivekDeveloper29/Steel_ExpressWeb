@@ -1,0 +1,882 @@
+/*=====================================
+---------------------------------------
+R E S P O N S I V E  - CSS  - S T A R T 
+---------------------------------------
+=======================================*/
+
+/*
+    FILE INFO
+  ========================================
+    WEBSITE NAME        - Nextop
+    WORK STARTED DATE   - 05.04.2022/04:00pm
+    CSS TYPE            - Only Responsive
+    CSS CREATED BY      - S.Shakil Ahmed
+  ========================================
+*/
+
+
+/*=====================================
+---------------------------------------
+BRAKE POINTS:-
+            - max-width: 1024px
+            - min-width: 768px
+            - max-width: 667px            
+            - max-width: 600px            
+            - max-width: 568px
+            - max-width: 480px
+            - max-width: 375px Main Changer
+            - max-width: 320px            
+---------------------------------------   
+=======================================*/
+.loading{
+  top: 50%;
+  left: 50%;
+  // position: absolute;
+}
+
+@media screen and (max-width: 1350px) {
+  .main-wishlist .wish-card{
+    justify-content: space-evenly !important;
+  }
+
+} 
+@media screen and (min-width: 1250px) {
+
+  .sliding-image .slick-list{
+height: auto !important;
+  }
+  .home-main-section .sliding-image img{
+    // height: auto !important;
+  }
+} 
+
+
+
+@media all and (max-width: 1166px) {
+  .sliding-image .slick-dots{
+    left: -30px !important;
+  }
+  .sliding-image .slick-list{
+    height: 400px !important;
+      }
+      .home-main-section .sliding-image img{
+        height: 400px !important;
+      }
+  .contact-main {
+    display: none;
+  }
+}
+
+
+/*================================================================================
+    @media all and (max-width: 1024px) START Tab
+  ================================================================================*/
+  @media all and (max-width: 1074px) {
+    .cart-bg-main .cart-main-wrapper .prdct-qty .left-content{
+      flex-basis: unset !important;
+    }
+  }
+@media all and (max-width: 1024px) {
+  .cart-bg-main .cart-main-wrapper .prdct-qty .left-content{}
+}
+
+/*================================================================================
+    @media all and (max-width: 1024px) END Tab
+  ================================================================================*/
+@media all and (max-width: 991px) {
+  
+  .home-main-section .main-below-slide .bckground-color-offer{
+    height: 530px !important;
+  }
+  .main-howWeWork .img-how-work{
+    padding: 30px !important;
+  }
+  #HomeShopByCategoryMain .left-catagory-main{
+    width: unset !important;
+  }
+  #HomeShopByCategoryMain{
+    .search-wrap{
+      position: unset !important;
+      width: unset !important;
+    }
+    padding: unset !important;
+    .left-catagory-main{
+      margin-top: unset !important;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  #HomeShopByCategoryMain .right-card .product-cards .tab-card{
+    margin-left: unset !important;
+    margin-right: 30px !important;
+  }
+  .main-order-details{
+    padding: 30px !important;
+  }
+  .main-product-page .right-card .product-cards{
+    padding-bottom: 10px ;
+  }
+  .main-about{
+    padding: 30px !important;
+  }
+  .details-lists-main .btn-detalil-products{
+position: unset !important;
+text-align: right;
+  }
+  .offers-bg{
+padding: 30px !important;
+  }
+  .get-quote-bg{
+    padding:30px !important;
+  }
+  .details-lists-main .btn-detalil-products{
+
+  }
+  .main-product-page .left-catagory-main{
+    margin-top: 70px;
+  }
+  .main-product-page .search-wrap {
+    position: absolute !important;
+    left: 30px !important;
+    width: calc(100% - 60px) !important;
+    top: 30px !important;
+}
+  .main-product-page{
+    position: relative;
+    padding: 30px !important;
+  }
+  .main-product-page .left-catagory-main{
+    margin-right: unset !important;
+  }
+  .main-product-page .product-section-page{
+    display: block !important;
+  }
+  .sliding-image .btn-on-slide {
+    left: 80px !important;
+    bottom: 35px !important;
+}
+
+  .main-notification{
+    padding: 30px !important;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-left: 0 !important;
+  }
+  .main-my-orders{
+    padding: 30px !important;
+  }
+  .cart-bg-main{
+    padding: 30px !important;
+  }
+  .main-wishlist{
+    padding: 0 30px 30px 30px !important;
+  }
+  
+  .offers-bg .inner-card-section .offer-card-inner{
+    margin-bottom: 20px;
+  }
+
+
+.btn-offer-grab{
+  text-align: right;
+}
+  .details-lists-main .details-bg{
+    padding: 30px !important;
+  }
+  .main-nav nav .route-bar-main{
+    padding: 0 30px !important;
+  }
+  .main-nav nav .menu-section{
+    height: auto !important;
+  }
+  .home-main-section .main-below-slide .about-section{
+    padding: 30px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-offer .offer-section{
+    padding: 30px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section{
+    padding: 30px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-popular-product .popular-product-section{
+    padding: 30px !important;
+  }
+  .background-how-it-works .how-it-works-section{
+    padding: 30px !important;
+  }
+  .main-nav nav .menu-section{
+    padding: 0 30px !important;
+  }
+  .main-nav nav .top-logo-section{
+    padding: 20px 30px !important;
+  }
+  .sliding-image .slick-list{
+    height: 300px !important;
+      }
+      .home-main-section .sliding-image img{
+        height: 300px !important;
+      }
+
+
+  .home-main-section .main-below-slide .about-section .left-about{
+ margin-right: 30px !important;
+  }
+  .main-nav {
+    height: auto !important;
+  }
+
+  .contact-main {
+    display: none;
+  }
+  .nav-item{
+    display: inherit;
+  }
+  .navbar-toggler{
+    border: 1px solid red;
+    line-height: unset;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar-nav{
+    margin-top: 15px;
+    border-top: 1px solid #EEEEEE;
+  }
+  
+}
+
+
+@media all and (max-width: 850px) {
+  .home-main-section .main-below-slide .about-section{
+    flex-direction: column;
+    
+  }
+  .home-main-section .main-below-slide .about-section .left-about{
+    margin-right: 0 !important;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+}
+
+/*================================================================================
+    @media all and (max-width: 768px) START iPhone - 6
+  ================================================================================*/
+
+@media all and (max-width: 768px) {
+  .offers-bg .inner-card-section .img-card img{
+    width: 100% !important;
+  }
+  .offers-bg .inner-card-section .img-card {
+    margin: -10px -10px 20px -10px !important;
+}
+  .offers-bg .inner-card-section .offer-card-inner{
+    display: block !important;
+  }
+  .offers-bg .inner-card-section{
+    height: auto !important;
+  }
+  .offer-card {
+    display: block !important;
+}
+  .main-order-details .product-summery{
+    width: 100% !important;
+  }
+  .main-order-details .order-stepper{
+    margin-left: 0 !important;
+  }
+  .main-order-details{
+    display: block !important;
+  }
+  .main-howWeWork .img-how-work{
+    padding: 20px !important;
+  }
+  
+  .main-my-orders .mayOrder-status-main .right .onGoing_btnMain{
+    position: unset !important;
+    transform: none !important;
+  }
+  .sliding-image .btn-on-slide a{
+    font-size: 14px !important;
+    padding: 10px 25px !important;
+  }
+  .navbar-toggler{
+    padding: 3px 10px !important;
+    font-size: 12px;
+  }
+  .navbar-toggler-icon img{
+width: 18px !important;
+  }
+  .main-my-orders .mayOrder-status-main .right .completed-btn button{
+    margin-right: 0 !important;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .completed-right{
+    text-align: right;
+  }
+  .main-my-orders .mayOrder-status-main .right .placed-date{
+    margin: 0 !important;
+    // text-align: right;
+  }
+  .main-my-orders .mayOrder-status-main .order-box{
+    padding: 20px !important;
+
+  }
+  .main-my-orders .mayOrder-status-main .left-content .content{
+margin-top: 15px;
+  }
+  .main-my-orders .mayOrder-status-main .left-content .image{
+    margin-right: 0 !important;
+  }
+  .main-my-orders .mayOrder-status-main .inner-content{
+    display: block !important;
+  }
+  .main-my-orders .mayOrder-status-main .left-content .image img{
+    height: auto !important;
+    width: 100% !important;
+  }
+  .main-my-orders .mayOrder-status-main .left-content{
+display: block !important;
+  }
+  .cart-bg-main .cart-main-wrapper .cart-box{
+    padding: 20px !important;
+    position: relative;
+  }
+  .cart-bg-main .cart-main-wrapper .delete-btn-main{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+    margin-right: 0 !important;
+  }
+  .cart-bg-main .cart-main-wrapper .prdct-qty .left-content .content{
+margin-top: 20px;
+margin-bottom: 20px;
+  }
+  .cart-bg-main .cart-main-wrapper .outer-heading{
+    display: none !important;
+  }
+  .cart-bg-main .cart-main-wrapper .prdct-qty .left-content .image img{
+    height: auto !important;
+    width: 100% !important;
+  }
+  .cart-bg-main .cart-main-wrapper .cart-box{
+    display: block !important;
+  }
+  .cart-bg-main .cart-main-wrapper .prdct-qty .left-content{
+    flex-direction: column;
+  }
+  .cart-bg-main .cart-main-wrapper .prdct-qty{
+    display: block !important;
+  }
+  .cart-bg-main .cart-main-wrapper .prdct-qty .left-content{
+    display: block !important;
+  }
+  .cart-bg-main .cart-main-wrapper .prdct-qty .left-content .image{
+    margin-right: 0 !important;
+  }
+  .main-contact-us .main-contact-card .right-contact .call, .main-contact-us .main-contact-card .right-contact .mail{
+    margin-bottom: 20px !important;
+  }
+  .main-contact-us .main-contact-card .right-contact .heading{
+    position: unset !important;
+    margin-bottom: 20px;
+  }
+  .main-contact-us{
+    padding: 30px !important;
+  }
+  .main-contact-us .main-contact-card .left-contact
+  {
+    padding: 30px !important;
+    width: 90vw !important;
+    height: auto !important;
+    
+  }
+  .main-contact-us .main-contact-card .right-contact .call, .main-contact-us .main-contact-card .right-contact .mail, .main-contact-us .main-contact-card .right-contact .whatsapp{
+    margin-left: 0 !important;
+  }
+  .main-contact-us .main-contact-card .right-contact{
+    width: 90vw !important;
+    height: auto !important;
+  }
+  .main-contact-us .main-contact-card{
+    flex-direction: column;
+  }
+  .main-wishlist .wish-card{
+    justify-content: space-evenly !important;
+  }
+  .offers-bg{
+    padding: 30px !important;
+  }
+  .get-quote-bg{
+    padding: 30px !important;
+  }
+  .quote-img{
+    max-width: 100% !important;
+  }
+  .main-footer .top-div{
+    padding: 0 30px !important;
+  }
+  .main-footer .bottom-div{
+    padding: 0 30px !important;
+  }
+  .sliding-image .slick-dots{
+    left: -40px !important;
+  }
+  .home-main-section .main-below-slide .about-section .right-about .right-img-main .main-img img{
+    width: 100% !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section .main-tab-card .nav-link{
+    padding: 5px 15px !important;
+  }
+
+  .home-main-section .main-below-slide .bckground-color-offer .slick-slide img{
+    height: auto !important;
+  }
+
+  .home-main-section .main-below-slide .bckground-color-popular-product .view-all button{
+    margin-bottom: 20px;
+  }
+  .home-main-section .main-below-slide .bckground-color-popular-product .popular-product-section{
+    flex-direction: column;
+  }
+  .main-login .top-form-text{
+    margin-top: 20px !important;
+  }
+  .main-login .login-button{
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+  }
+  .main-login .email-main-login, .main-login .pass-main-log{
+    margin-bottom: 20px !important;
+  }
+  .main-login .login-form{
+align-items: unset !important;
+margin-top: 30px;
+margin-bottom: 20px;
+  }
+  .main-login .login-form{
+    height: 80vh !important;
+    overflow-y: auto;
+  }
+  .main-login .logo-rsponsive{
+    display: block !important;
+  }
+  .main-login .login-banner-img .image-back{
+display: none;
+  }
+  .shop-section .nav{
+    flex-wrap: nowrap !important;
+  }
+  .shop-section .main-scroll-hide{
+    ::-webkit-scrollbar{
+      display: none !important;
+    }
+  }
+  .shop-section {
+    
+    .tab-scroll{
+      // overflow-x: auto;  
+    }
+    .tab-fix-width{
+      width: 850px;
+      
+        }
+
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section .main-tab-card .nav-link{
+    width: auto !important;
+    margin-right: 20px ;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section .main-tab-card{
+    flex-direction: column;
+  }
+  .home-main-section .main-below-slide .about-section{
+    padding: 20px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-offer .offer-section{
+    padding: 20px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section{
+    padding: 20px !important;
+  }
+  .main-product-page .main-card-listing{
+    padding: unset !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-popular-product .popular-product-section{
+    padding: 20px !important;
+  }
+  .background-how-it-works .how-it-works-section{
+    padding: 20px !important;
+  }
+  .main-nav nav .menu-section{
+    padding: 0 30px !important;
+  }
+  .main-nav nav .top-logo-section{
+    padding: 20px 30px !important;
+  }
+  .login-btn-main{
+    display: none;
+  }
+  .login-btn-main-responsive{
+    display: block !important;
+  }
+}
+
+/*================================================================================
+    @media all and (max-width: 768px) END iPhone - 6
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 667px) START iPhone - 6
+  ================================================================================*/
+
+@media all and (max-width: 667px) {
+  .sliding-image .btn-on-slide {
+    left: 50px !important;
+    bottom: 15px !important;
+}
+  .sliding-image .slick-list{
+    height: 200px !important;
+      }
+      .home-main-section .sliding-image img{
+        height: 200px !important;
+      }
+
+      .sliding-image .slick-dots li button:before{
+        height: 30px !important;
+      }
+
+      .sliding-image .slick-dots li{
+        height: 30px !important;
+      }
+}
+
+/*================================================================================
+    @media all and (max-width: 667px) END iPhone - 6
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 600px) START Tab
+  ================================================================================*/
+
+@media all and (max-width: 600px) {}
+
+/*================================================================================
+    @media all and (max-width: 600px) END Tab
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 568px) START iPhone - 5
+  ================================================================================*/
+
+@media all and (max-width: 568px) {
+  .home-main-section .main-below-slide .bckground-color-offer .offer-section .top-offer .right button{
+    font-size: 12px !important;
+width: 90px !important;
+  }
+}
+
+/*================================================================================
+    @media all and (max-width: 568px) END iPhone - 5
+  ================================================================================*/
+
+
+
+
+
+/*================================================================================
+    @media all and (max-width: 480px) START iPhone - 3 + 4
+  ================================================================================*/
+@media all and (max-width: 480px) {
+  .cart-bg-main{
+    margin-top: 160px !important;
+  }
+  .main-nav nav .nav-cart-account-logo .cart-badge{
+    top: -4px !important;
+    right: -4px !important;
+  }
+  .main-nav nav .route-bar-main{
+    padding: 0 20px !important;
+  }
+  .offers-bg{
+    margin-top: 160px !important;
+  }
+  .btn-offer-grab {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: unset !important; 
+    flex-direction: row-reverse;
+    .mb-4{
+      margin-bottom: unset !important;
+    }
+}
+  .get-quote-bg{
+    margin-top: 160px !important;
+  }
+  .main-profile {
+    margin-top: 160px !important;
+  }
+  .main-notification{
+    margin-top: 160px !important;
+  }
+  .home-main-section{
+    margin-top: 110px !important;
+  }
+  .main-my-orders .mayOrder-status-main .right .placed-date{
+    font-size: 12px !important;
+  }
+  .main-my-orders .mayOrder-status-main .right .ongoing-btn button{
+    width: 100%;
+  }
+  .main-contact-us{
+    margin-top: 160px !important;
+  }
+  .main-order-details{
+    margin-top: 160px !important;
+  }
+  .main-nav nav .top-logo-section .left-section .text-below-logo{
+    font-size: 8px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-offer{
+    height: 400px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-offer .offer-section .slick-prev, .home-main-section .main-below-slide .bckground-color-offer .offer-section .slick-next{
+    top: 50% !important;
+  }
+  .main-my-orders .mayOrder-status-main .order-box{
+    margin-bottom: 20px !important;
+  }
+  .main-my-orders .tab-my-order .nav{
+    margin-bottom: 20px !important;
+  }
+  .btn-shop-home .btn-gray-common{
+    height: 36px !important;
+  }
+  .main-footer .bottom-div .social-media-icons img {
+    height: 20px !important;
+    width: 20px !important;
+    margin-right: 5px !important;
+}
+  .main-footer .top-div .term-policy .policy{
+    padding-right: 5px !important;
+    font-size: 11px !important;
+  }
+  .main-footer .top-div .term-policy .term{
+    padding-right: 5px !important;
+    font-size: 11px !important;
+    padding-left: 5px !important;
+  }
+  .main-footer .top-div .term-policy .about{
+    padding-left: 5px !important;
+    font-size: 11px !important;
+  }
+  .main-footer .bottom-div label{
+    font-size: 11px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section .main-tab-card .product-card .right-card-top .search .form-control{
+    height: 36px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section .main-tab-card .product-card .right-card-top .select .form-select{
+    height: 36px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-shop .shop-section .view-all button{
+    height: 36px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-popular-product .view-all button{
+    height: 36px !important;
+  }
+  .home-main-section .main-below-slide .bckground-color-offer .offer-section .top-offer .right button{
+    height: 36px !important;
+  }
+  .main-order-details .inner-content-stepper .step.active .line{
+    bottom: 24px !important;
+  }
+  .main-order-details .inner-content-stepper .content p{
+    font-size: 14px !important;
+  }
+  .main-order-details .inner-content-stepper .step .line{
+    bottom: 45px !important;
+  }
+  .main-order-details .inner-content{
+    padding: 20px !important;
+  }
+  .main-order-details .inner-content-stepper{
+    padding: 20px !important;
+  }
+  .main-order-details .left-content .image{
+    margin-bottom: 15px;
+    margin-right: 0 !important;
+    img{
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  .main-order-details .left-content{
+    display: block !important;
+  }
+  .main-order-details{
+    padding: 20px !important;
+  }
+  .main-my-orders .mayOrder-status-main .right .completed-btn button{
+    margin-left: 0 !important;
+  }
+  .main-my-orders .mayOrder-status-main .right .onGoing_btnMain{
+    margin-top: 5px;
+  }
+  .main-about{
+    padding: 20px !important;
+  }
+  .details-lists-main .addcart-btn{
+    width: 100% !important;
+  }
+  .details-lists-main .getquote-btn1{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 15px;
+  }
+  .offers-bg{
+    padding: 20px !important;
+      }
+  .get-quote-bg{
+    padding: 20px !important;
+  }
+  .main-notification{
+    padding: 20px !important;
+  }
+  .cart-bg-main{
+    padding: 20px !important;
+  }
+  .main-nav nav .menu-section{
+    padding: 0 20px !important;
+  }
+  .main-my-orders{
+    padding: 20px !important;
+  }
+  .main-my-orders .mayOrder-status-main .right .completed-btn button{
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .cart-bg-main .count-cart-bottom-main .inner .left{
+    margin-bottom: 20px;
+  }
+  .cart-bg-main .count-cart-bottom-main .inner{
+    display: block !important;
+    text-align: center;
+  }
+  .main-footer .top-div{
+    justify-content: center !important;
+  }
+  .main-footer .bottom-div{
+    padding-bottom: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .offers-bg .inner-card-section .img-card{
+    img{
+      height: auto !important;
+      width: 100% !important;
+    }
+    margin-bottom: 20px;
+  }
+  .offers-bg .inner-card-section .offer-card-inner{
+    flex-direction: column;
+  }
+  .main-login .form-content{
+    width: 100% !important;
+    padding: 0 20px;
+  }
+
+  .main-nav nav .top-logo-section{
+    .left-section{
+      img{
+        width: 150px;
+      }
+    }
+  }
+  .main-nav nav .nav-cart-account-logo .account{
+    margin-left: 7px !important;
+  }
+  .main-nav nav .nav-cart-account-logo .bell{
+    margin: 0 7px 0 0 !important; 
+  }
+
+  .main-nav nav .nav-cart-account-logo .bell a img{
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .main-nav nav .nav-cart-account-logo .cart a img{
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .main-nav nav .nav-cart-account-logo .account a img{
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .main-nav nav .nav-cart-account-logo .cart-badge{
+    height: 13px !important;
+    width: 13px !important;
+  }
+
+  .main-nav nav .nav-cart-account-logo .cart-badge label{
+    height: 13px !important;
+    width: 13px !important;
+    font-size: 8px !important;
+  }
+
+  .main-nav nav .top-logo-section{
+    height: 70px !important;
+  }
+  .main-nav nav .top-logo-section{
+    padding: 20px !important;
+  }
+}
+
+/*================================================================================
+    @media all and (max-width: 480px) END iPhone - 3 + 4
+  ================================================================================*/
+
+
+
+
+
+
+/*================================================================================
+    @media all and (max-width: 375px) START iPhone - 6
+  ================================================================================*/
+
+@media all and (max-width: 375px) {
+  
+}
+
+
+/*================================================================================
+    @media all and (max-width: 375px) END iPhone - 6
+  ================================================================================*/
+
+
+
+
+
+/*================================================================================
+    @media all and (max-width: 320px) START iPhone - 3 + 4
+  ================================================================================*/
+
+@media all and (max-width: 320px) {}
+
+
+/*================================================================================
+    @media all and (max-width: 320px) END iPhone - 3 + 4
+  ================================================================================*/
+
+/*=====================================
+---------------------------------------
+R E S P O N S I V E  - CSS  -     E N D 
+---------------------------------------
+=======================================*/

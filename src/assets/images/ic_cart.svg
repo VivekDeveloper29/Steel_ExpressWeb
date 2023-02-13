@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5363" data-name="Rectangle 5363" width="24" height="24" transform="translate(348 93)" fill="#ff3e6c" stroke="#ff3e6c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ic_cart" transform="translate(-348 -93)" clip-path="url(#clip-path)">
+    <path id="Union_54" data-name="Union 54" d="M14.265,13.757a1.361,1.361,0,1,1,1.361,1.325A1.342,1.342,0,0,1,14.265,13.757Zm-8.162,0a1.361,1.361,0,1,1,1.361,1.325A1.342,1.342,0,0,1,6.1,13.757Zm.77-3.824a.9.9,0,0,1-.855-.59L3.279,1.766H.907A.9.9,0,0,1,0,.884.9.9,0,0,1,.907,0H3.921a.9.9,0,0,1,.855.59L7.515,8.168H15.7l1.642-5.091H9.011A.9.9,0,0,1,8.1,2.194a.9.9,0,0,1,.908-.883H18.58a.913.913,0,0,1,.731.361.863.863,0,0,1,.134.787L17.233,9.315a.9.9,0,0,1-.865.618Z" transform="translate(350.257 97.459)" fill="#ff3e6c" stroke="#ff3e6c" stroke-linecap="round" stroke-width="0.5"/>
+  </g>
+</svg>

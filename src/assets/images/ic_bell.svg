@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="ic_cart" transform="translate(-1066 -49)">
+    <rect id="Rectangle_3672" data-name="Rectangle 3672" width="44" height="44" rx="22" transform="translate(1066 49)" fill="#f7f7f7"/>
+    <g id="_13252117381571183079" data-name="13252117381571183079" transform="translate(1074.565 57.616)">
+      <path id="Path_49357" data-name="Path 49357" d="M20.975,17.137l-.751-1.126a11.135,11.135,0,0,1-1.8-6.156,5.049,5.049,0,0,0-3.528-4.88,1.53,1.53,0,0,0-2.853,0,5.049,5.049,0,0,0-3.528,4.88,11.135,11.135,0,0,1-1.8,6.156l-.751,1.126a.716.716,0,0,0,.6,1.126H20.3A.76.76,0,0,0,20.975,17.137Z" fill="none" stroke="#fe0843" stroke-linejoin="round" stroke-width="1.8"/>
+      <path id="Path_49358" data-name="Path 49358" d="M17.5,26A2.252,2.252,0,1,1,13,26" transform="translate(-1.784 -5.485)" fill="none" stroke="#fe0843" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

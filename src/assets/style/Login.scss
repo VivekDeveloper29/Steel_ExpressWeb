@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+.main-login {
+    overflow-x: hidden;
+
+    .login-banner-img {
+        position: relative;
+        background-color: #FCF5F7;
+
+        .image-back {
+            background-image: url("../images/login_image_new.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100vh;
+            background-position: center;
+        }
+    }
+
+    .top-form-text {
+        margin-bottom: 30px;
+    }
+
+    .email-main-login,
+    .pass-main-log {
+        margin-bottom: 10px;
+    }
+
+    .logo-rsponsive {
+        display: none;
+        height: 20vh;
+        padding: 0 30px;
+
+        img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    .email-input {
+        margin-top: 7px;
+        width: 100%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E7E7E7;
+        height: 38px;
+        padding: 0 20px;
+    }
+
+    .eye-icon {
+        position: absolute;
+        right: 10px;
+        top: 1px;
+        height: 18px;
+        width: 18px;
+    }
+
+    .login-button {
+        letter-spacing: 0.38px;
+        color: #FFFFFF;
+        width: 100%;
+        background: #818181 0% 0% no-repeat padding-box;
+        border: none;
+        height: 38px;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .email-label {
+        color: #777777;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.34px;
+
+    }
+
+    .welcome-text {
+        color: #222222;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.58px;
+        font-weight: bold;
+    }
+
+    .enter-text {
+        color: #777777;
+        font-size: 14px;
+        letter-spacing: 0.34px;
+        font-weight: bold;
+    }
+
+    .have-account {
+        color: #777777;
+        font-size: 16px;
+        letter-spacing: 0.38px;
+        font-weight: bold;
+    }
+
+    .register {
+        margin-left: 10px;
+        color: #FE0843;
+        font-size: 16px;
+        cursor: pointer;
+        letter-spacing: 0.38px;
+    }
+
+    .login-form {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: auto;
+
+        ::-webkit-scrollbar {
+            display: none;
+
+
+        }
+    }
+
+    .form-content {
+        width: 383px;
+    }
+}
+
+.register-content {
+    overflow-y: auto;
+
+
+}
+
+.register-button {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+}
+
+.register-bottom {}
+
+.forgot-btn {
+    margin: 0 !important;
+}
+
+
+.back-main {
+    display: flex;
+    justify-content: space-between;
+
+    .back-btn-red a {
+        font-family: 'PT Sans', sans-serif;
+        letter-spacing: 0.54px;
+        color: #FF3E6C;
+        font-size: 16px;
+    }
+}
+
+.otp-main {
+    .otp-input {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #E7E7E7;
+        margin-right: 25px;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.fill-img-star{
+    font-size: 14px;
+    color: #FF3E6C;
+}
